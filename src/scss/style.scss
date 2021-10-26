@@ -1,0 +1,34 @@
+@import 'normalize';
+@import 'mixin';
+@import 'variables';
+
+
+// Base
+@import 'base/fonts';
+@import 'base/common';
+
+
+// layout classes (.container) & extends
+@import './layout/containers';
+
+//libraries
+
+
+//elements; - small BEM  blocks
+@import 'elements/logo';
+@import 'elements/button';
+
+
+//components; - middle BEM blocks
+@import 'components/header';
+@import './components/_footer.scss';
+
+
+
+// sections - big BEM  blocks
+
+
+
+
+
+

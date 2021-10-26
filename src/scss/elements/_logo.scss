@@ -1,0 +1,8 @@
+.logo{
+    &__text{
+        font-size: px-to-rem(20);
+        font-weight: 400;
+        letter-spacing: px-to-rem(2);
+        word-spacing: px-to-rem(3);
+    }
+}
