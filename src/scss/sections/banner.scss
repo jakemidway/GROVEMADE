@@ -1,0 +1,32 @@
+.banner{
+    background-color: var(--color-BG);
+    background: url(./../images/banner/BG-image.png) 50% 50% no-repeat;
+    background-size: cover;
+    padding: px-to-rem(188) 0 px-to-rem(193);
+    color: var(--color-text-light);
+    &__title,
+    &__text,
+    &__link{
+        text-align: center;
+    }
+    &__title{
+        font-weight: 400;
+        font-size: px-to-rem(43);
+        line-height: px-to-rem(46);
+        margin-bottom: px-to-rem(12);
+    }
+    &__text{
+        margin-bottom: px-to-rem(28);
+        letter-spacing: 0.8px;
+        word-spacing: 0.8px;
+    }
+    &__link{
+        display: block;
+        color: var(--color-text-light);
+        line-height: px-to-rem(20);
+        letter-spacing: 0.8px;
+        word-spacing: 0.8px;
+    }
+    
+        
+}

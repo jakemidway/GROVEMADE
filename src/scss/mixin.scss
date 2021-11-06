@@ -1,9 +1,10 @@
 // брейкпойнтs
 // for-phone-only               max -width 320px
-// for-tablet-portrait-up       min-width 320px
-// for-tablet-landscape-up      min-width 576px
-// for-desktop-up               min-width 768px
-// for-big-desktop-up           min-width 1280px
+// for-mobile-up                min-width 320px
+// for-tablet-portrait-up       min-width 576px
+// for-tablet-landscape-up      min-width 768px
+// for-desktop-up               min-width 1280px
+// for-big-desktop-up           min-width 1440px
  
 @mixin for-phone-only {
     @media (max-width: 319px) {
@@ -11,31 +12,31 @@
     }
 }
 
-@mixin for-tablet-portrait-up {
+@mixin for-for-mobile-up {
     @media (min-width: 320px) {
         @content;
     }
 }
 
-@mixin for-tablet-landscape-up {
+@mixin for-tablet-portrait-up {
     @media (min-width: 576px) {
         @content;
     }
 }
 
-@mixin for-desktop-up {
+@mixin for-tablet-landscape-up {
     @media (min-width: 768px) {
         @content;
     }
 }
 
-@mixin for-big-desktop-up {
+@mixin for-desktop-up {
     @media (min-width: 1280px) {
         @content;
     }
 }
 
-@mixin for-big-desktop1440-up {
+@mixin for-big-desktop-up {
     @media (min-width: 1440px) {
         @content;
     }
@@ -47,6 +48,8 @@
     flex-direction: $direction;
     justify-content: $justify;
 }
+
+
 
 
 // $base-font-size: 16;

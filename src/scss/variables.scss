@@ -1,9 +1,11 @@
 //color
 $colorText: #000;
 $colorTextSecond: #A0A0A0;
+$colorTextLight: rgb(255, 255, 255);
 // colortheme
 $colorAccent: rgb(228, 228, 228);
 $colorAccentLight: rgb(255, 255, 255);
+$colorBG: rgb(160, 160, 160);
 
 
 
@@ -12,9 +14,11 @@ $colorAccentLight: rgb(255, 255, 255);
 
 :root{
     --color-text: #{$colorText};
-    --color-text-ligth: #{$colorTextSecond};
+    --color-text-second: #{$colorTextSecond};
+    --color-text-light: #{$colorTextLight};
     --color-accent: #{$colorAccent};
     --color-accent-light: #{$colorAccentLight}; 
+    --color-BG: #{$colorBG};
 }
 
 
