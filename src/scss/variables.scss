@@ -1,11 +1,12 @@
 //color
 $colorText: #000;
 $colorTextSecond: #A0A0A0;
-$colorTextLight: rgb(255, 255, 255);
+$colorTextLight: #ffffff;
 // colortheme
-$colorAccent: rgb(228, 228, 228);
-$colorAccentLight: rgb(255, 255, 255);
-$colorBG: rgb(160, 160, 160);
+$colorAccent: #e4e4e4;
+$colorAccentLight: #ffffff;
+$colorBG: #a0a0a0;
+$colorBG-light: #f9f9f9;
 
 
 
@@ -19,6 +20,7 @@ $colorBG: rgb(160, 160, 160);
     --color-accent: #{$colorAccent};
     --color-accent-light: #{$colorAccentLight}; 
     --color-BG: #{$colorBG};
+    --color-BG-light: #{$colorBG-light};
 }
 
 

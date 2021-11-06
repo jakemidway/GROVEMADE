@@ -385,10 +385,11 @@ template {
 :root {
   --color-text: #000;
   --color-text-second: #A0A0A0;
-  --color-text-light: white;
+  --color-text-light: #ffffff;
   --color-accent: #e4e4e4;
-  --color-accent-light: white;
+  --color-accent-light: #ffffff;
   --color-BG: #a0a0a0;
+  --color-BG-light: #f9f9f9;
 }
 
 @font-face {
@@ -558,11 +559,17 @@ li {
 }
 
 .footer {
-  margin: 6.25rem 0 3.125rem;
+  position: relative;
+  background-color: var(--color-BG-light);
+  margin-top: 2.4375rem;
+  padding: 5rem 0 1.75rem 0;
 }
 
-.footer__copywrite {
-  text-align: center;
+.footer {
+  position: relative;
+  background-color: var(--color-BG-light);
+  margin-top: 2.4375rem;
+  padding: 5rem 0 1.75rem 0;
 }
 
 .banner {

@@ -1,7 +1,6 @@
 .footer{
-    margin: px-to-rem(100) 0 px-to-rem(50);
-
-    &__copywrite{
-        text-align: center;
-    }
+    position: relative;
+    background-color: var(--color-BG-light);
+    margin-top: px-to-rem(39);
+    padding: px-to-rem(80) 0 px-to-rem(28) 0;
 }
