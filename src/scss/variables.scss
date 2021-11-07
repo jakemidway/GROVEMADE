@@ -2,7 +2,10 @@
 $colorText: #000;
 $colorTextSecond: #A0A0A0;
 $colorTextLight: #ffffff;
-// colortheme
+//второй набор цветекстатов для 
+$colorTextSecondSetLight: #707A7F; 
+$colorTextSecondSetDark: #000000; 
+// colortheme 
 $colorAccent: #e4e4e4;
 $colorAccentLight: #ffffff;
 $colorBG: #a0a0a0;
@@ -17,6 +20,10 @@ $colorBG-light: #f9f9f9;
     --color-text: #{$colorText};
     --color-text-second: #{$colorTextSecond};
     --color-text-light: #{$colorTextLight};
+
+    --color-text-SSL: #{$colorTextSecondSetLight};
+    --color-text-SSD: #{$colorTextSecondSetDark};
+
     --color-accent: #{$colorAccent};
     --color-accent-light: #{$colorAccentLight}; 
     --color-BG: #{$colorBG};
