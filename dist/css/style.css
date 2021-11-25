@@ -421,7 +421,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.0625rem;
 }
 
 h2,
@@ -848,7 +848,7 @@ li {
 }
 
 .get-started__card {
-  padding-bottom: 8.375rem;
+  padding-bottom: 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,6 +874,30 @@ li {
 .get-started__link-card {
   font-size: 0.8125rem;
   letter-spacing: 1.4px;
+}
+
+.featprod__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featprod__title {
+  font-size: 2.0625rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.4px;
+}
+
+.featprod__text {
+  font-size: 0.9375rem;
+  color: var(--color-text-second);
 }
 
 @media (min-width: 768px) {

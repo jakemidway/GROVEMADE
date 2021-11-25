@@ -1,0 +1,17 @@
+.featprod{
+    
+    &__top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+        font-size: px-to-rem(33); 
+        margin-bottom: px-to-rem(16);
+        letter-spacing: 0.4px;
+    }
+    &__text{
+        font-size: px-to-rem(15);
+        color: var(--color-text-second);
+    }
+}
