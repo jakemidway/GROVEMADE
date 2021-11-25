@@ -4,11 +4,9 @@
     background-size: cover;
     padding: px-to-rem(188) 0 px-to-rem(193);
     color: var(--color-text-light);
-    &__title,
-    &__text,
-    &__link{
-        text-align: center;
-    }
+    
+    @include title-text;
+
     &__title{
         font-weight: 400;
         font-size: px-to-rem(43);

@@ -68,3 +68,10 @@
     transition: all $time * 0.1s ease-in;
 }
 
+@mixin title-text {
+    &__title,
+    &__text,
+    &__link{
+        text-align: center;
+    }
+}
