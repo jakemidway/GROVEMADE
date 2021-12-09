@@ -7,6 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>GROVEMADE</title>
+
+    <!-- ChiefSlider JavaScript -->
+    <script defer src="./js/chief-slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = new ChiefSlider('.slider', {
+                loop: false
+            });
+        });
+    </script>
+
+
 </head>
 
 <body>
@@ -81,6 +93,49 @@
                 <h2 class="featprod__title">Featured Products</h2>
                 <p class="featprod__text">See What’s Trending Right Now</p>
             </div>
+
+            <div class="featprod__slider">
+
+
+                <div class="slider">
+                    <div class="slider__wrapper">
+                      <div class="slider__items">
+                        <div class="slider__item">
+                          <!-- Контент 1 слайда -->
+                          1
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 2 слайда -->
+                          2
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 3 слайда -->
+                          3
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 4 слайда -->
+                          4
+                        </div>
+                        <div class="slider__item">
+                          <!-- Контент 5 слайда -->
+                          5
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="slider__control" data-slide="prev"></a>
+                    <a href="#" class="slider__control" data-slide="next"></a>
+                    <ol class="slider__indicators">
+                      <li data-slide-to="0"></li>
+                      <li data-slide-to="1"></li>
+                      <li data-slide-to="2"></li>
+                      <li data-slide-to="3"></li>
+                      <li data-slide-to="4"></li>
+                    </ol>
+                  </div>
+
+
+
+            </div>
         </div>
 
     </section>
@@ -121,6 +176,7 @@
             </div>
         </div>
     </footer>
+
 
 </body>
 
