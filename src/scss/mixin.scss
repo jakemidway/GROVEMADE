@@ -68,10 +68,37 @@
     transition: all $time * 0.1s ease-in;
 }
 
-@mixin title-text {
+@mixin center-text {
     &__title,
     &__text,
     &__link{
         text-align: center;
     }
+}
+
+@mixin underline-for-link {
+        position: relative;
+        transition: all 0.1s ease-in;
+
+        &:after {
+            position: absolute;
+            bottom: px-to-rem(-3);
+            left: 50%;
+            display: block;
+            content: ' ';
+            width: 0;
+            height: px-to-rem(1);
+            background-color: red;
+            opacity: 0;
+            transition: all 0.2s ease-in;
+        }
+
+        &:hover {
+
+            &.banner-link::after{
+                width: 100%;
+                left: 0;
+                opacity: 1;
+            }
+        }
 }

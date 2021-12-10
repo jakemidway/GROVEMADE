@@ -424,6 +424,7 @@ h1 {
 
 h2 {
   font-size: 2.0625rem;
+  font-weight: 400;
 }
 
 h2,
@@ -959,10 +960,19 @@ li {
 
 .banner {
   background-color: var(--color-BG);
-  background: url(./../images/banner/BG-image.png) 50% 50% no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50%;
   background-size: cover;
   padding: 11.75rem 0 12.0625rem;
   color: var(--color-text-light);
+}
+
+.banner_first {
+  background-image: url(./../images/banner/BG-image.png);
+}
+
+.banner_second {
+  background-image: url(./../images/banner/BG-image-two.png);
 }
 
 .banner__title,
@@ -971,11 +981,16 @@ li {
   text-align: center;
 }
 
-.banner__title {
-  font-weight: 400;
+.banner__title_for-ban1 {
   font-size: 2.6875rem;
   line-height: 2.875rem;
   margin-bottom: 0.75rem;
+}
+
+.banner__title_for-ban2 {
+  font-size: 4.125rem;
+  line-height: 4.375rem;
+  margin-bottom: 0.875rem;
 }
 
 .banner__text {
@@ -1060,6 +1075,11 @@ li {
   letter-spacing: 1.4px;
 }
 
+.featprod {
+  overflow: hidden;
+  padding-bottom: 6.25rem;
+}
+
 .featprod__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1094,4 +1114,6 @@ li {
   }
 }
 
-.webp .banner{ background: url(./../images/banner/BG-image.webp) 50% 50% no-repeat; }
+.webp .banner_first{ background-image: url(./../images/banner/BG-image.webp); }
+
+.webp .banner_second{ background-image: url(./../images/banner/BG-image-two.webp); }

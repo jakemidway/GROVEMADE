@@ -1,5 +1,6 @@
 .featprod{
-    
+    overflow: hidden;
+    padding-bottom: px-to-rem(100);
     &__top{
         display: flex;
         flex-direction: column;

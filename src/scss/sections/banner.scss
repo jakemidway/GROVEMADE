@@ -1,17 +1,30 @@
 .banner{
     background-color: var(--color-BG);
-    background: url(./../images/banner/BG-image.png) 50% 50% no-repeat;
+    background-repeat: no-repeat;
+    background-position: 50%;
     background-size: cover;
     padding: px-to-rem(188) 0 px-to-rem(193);
     color: var(--color-text-light);
-    
-    @include title-text;
+    &_first{
+        background-image: url(./../images/banner/BG-image.png);        
+    }
+    &_second{
+        background-image: url(./../images/banner/BG-image-two.png);
+    }
+
+    @include center-text;
 
     &__title{
-        font-weight: 400;
-        font-size: px-to-rem(43);
-        line-height: px-to-rem(46);
-        margin-bottom: px-to-rem(12);
+        &_for-ban1{
+            font-size: px-to-rem(43);
+            line-height: px-to-rem(46);
+            margin-bottom: px-to-rem(12);
+        }
+        &_for-ban2{
+            font-size: px-to-rem(66);
+            line-height: px-to-rem(70);
+            margin-bottom: px-to-rem(14);
+        }
     }
     &__text{
         margin-bottom: px-to-rem(28);
